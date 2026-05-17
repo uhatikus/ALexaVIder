@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from pathlib import Path
 
-def create_mini_photos(input_folder="photos_", output_folder="photos_mini", min_dimension=512):
+def create_mini_photos(input_folder="photos_", output_folder="photos_mini_", min_dimension=512):
     """
     Create mini versions of photos with minimum dimension of 256 pixels.
     
